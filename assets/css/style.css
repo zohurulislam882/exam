@@ -1,0 +1,196 @@
+/********************************************************
+    Template Name: 
+    Created By: Md. Zohurul Islam
+    Version: 1.0
+*********************************************************/
+
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,600;0,700;0,800;1,300;1,400;1,600;1,700;1,800&family=Source+Sans+Pro:ital,wght@0,200;0,300;0,400;0,600;0,700;0,900;1,200;1,300;1,400;1,600;1,700;1,900&display=swap');
+
+
+
+
+.alignleft {
+    float: left;
+    margin-right: 15px;
+}
+.alignright {
+    float: right;
+    margin-left: 15px;
+}
+.aligncenter {
+    display: block;
+    margin: 0 auto 15px;
+}
+a:focus { outline: 0 solid }
+img {
+    max-width: 100%;
+    height: auto;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    margin: 0 0 15px;
+    font-weight: 700;
+    color: #222;
+}
+h2 {
+  font-size: 32px;
+}
+body {
+   
+}
+a:hover { text-decoration: none }
+
+.section-padding {
+    padding: 80px 0px;
+}
+
+.works-text h2 {
+    font-size: 36px;
+    font-weight: 400;
+    font-family: 'Source Sans Pro', sans-serif;
+    color: #6a6a6a;
+}
+
+.works-text p {
+    font-size: 14px;
+    color: #999;
+    font-family: 'Open Sans', sans-serif;
+}
+
+ul.menu-filter {
+    margin: 0px;
+    padding: 0px;
+    list-style: none;
+    margin-top: 50px;
+}
+
+ul.menu-filter li {
+    display: inline-block;
+    padding: 0px 10px;
+    font-weight: 700;
+    color: #999999;
+    font-size: 14px;
+    font-family: 'Open Sans', sans-serif;
+}
+.single-works-item {
+    margin-top: 30px;
+}
+
+.works-bg{
+    background-position: center;
+    background-size: cover;
+    background-color: #ddd;
+    background-repeat: no-repeat;
+    height: 350px;
+}
+.works-bg-1{
+    background-image: url(../img/01.jpg);
+}
+.works-bg-2{
+    background-image: url(../img/02.jpg);
+}
+.works-bg-3{
+    background-image: url(../img/03.jpg);
+}
+.works-bg-4{
+    background-image: url(../img/04.jpg);
+}
+.works-bg-5{
+    background-image: url(../img/05.jpg);
+}
+.works-bg-6{
+    background-image: url(../img/06.jpg);
+}
+.works-bg-7{
+    background-image: url(../img/07.jpg);
+}
+.works-bg-8{
+    background-image: url(../img/08.jpg);
+}
+
+span.line {
+    background: #141414;
+    height: 1px;
+    width: 100px;
+    display: inline-block;
+    margin: 0px 20px;
+}
+
+span.dot {
+    display: inline-block;
+    background:#e74c3c;
+    height: 10px;
+    width: 10px;
+    position: absolute;
+    left: 49%;
+    top: 93px;
+    border-radius: 50px;
+}
+.isotope-section .container-fluid {
+    padding-left: 0px;
+    padding-right: 0px;
+}
+
+.isotope-section .row {
+    margin-left: 0px;
+    margin-right: 0px;
+}
+
+.isotope-section .col-md-3 {
+    padding-left: 0px;
+    padding-right: 0px;
+}
+
+.works-hover {
+    position: relative;
+}
+
+.single-works-item:hover .works-hover:before{
+    position: absolute;
+    left: 0;
+    top: 0;
+    height: 350px;
+    width: 338px;
+    content: "";
+    background: #e74c3c;
+    opacity: .5;
+}
+.single-works-item:hover .works-hover:after{
+    position: absolute;
+    top: 260px;
+    height: 2px;
+    width: 100px;
+    background: #fff;
+    content: "";
+    left: 10px;
+}
+
+.single-works-item:hover .works-hover h3 {
+    position: absolute;
+    left: 10px;
+    bottom: -320px;
+    color: #fff;
+}
+.single-works-item:hover .works-hover p {
+    position: absolute;
+    left: 10px;
+    bottom: -340px;
+    color: #fff;
+}
+.works-hover h3{
+    display: none;
+}
+.works-hover p{
+    display: none;
+}
+.single-works-item:hover .works-hover p{
+    display: block;
+}
+
+.single-works-item:hover .works-hover h3{
+    display: block;
+}
